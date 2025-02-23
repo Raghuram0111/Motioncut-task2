@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Slideshow</title>
+<link rel="stylesheet" href="Task2.css">
+<script src="Task2.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Favourite Bikes</h1>
+</header>
+
+<div class="slider">
+  <div class="slides">
+    <img src="C:\Users\DELL\Downloads\Duke 390❤.jpeg" alt="Image 1" class="slide active">
+    <img src="C:\Users\DELL\Downloads\155 Horsepower Machine From Ducati.jpeg" alt="Image 2" class="slide">
+    <img src="C:\Users\DELL\Downloads\Kawasaki Ninja Z800 💚.jpeg" alt="Image 3" class="slide">
+  </div>
+  <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="next" onclick="moveSlide(1)">&#10095;</button>
+  <div class="indicators">
+    <span class="dot active" onclick="currentSlide(0)"></span>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+  </div>
+</div>
+</body>
+</html>
